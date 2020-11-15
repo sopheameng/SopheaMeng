@@ -1,0 +1,159 @@
+.nav {
+    height: 90px;
+    background-color: white;
+}
+
+body {
+    font-family: 'Itim', cursive;
+}
+
+.container {
+    margin: 0 5%
+}
+
+.f-left {
+    float: left;
+}
+
+.f-right {
+    float: right;
+}
+.f-top{
+    float: top;
+}
+
+.b-c {
+    border: 1px solid black;
+    height: 15px;
+    width: 15px;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 50%;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: white;
+    background: black;
+}
+.btn-join {
+    background: white;
+    font-size: 20px;
+    box-shadow: 5px 5px black;
+}
+
+button {
+    font-family: 'Itim', cursive;
+}
+
+input:focus {
+    outline-offset: unset;
+    outline: none;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.img {
+    position: relative;
+    text-align: center;
+    color: black;
+}
+
+.card-column {
+    float: left;
+    width: 33.33%;
+}
+.card-column-last-row{
+    float: left;
+    width:20%;
+}
+.card-column-last-row-right-side{
+    float:right;
+    width:80%
+}
+.card-colum-right-half{
+    float: right;
+}
+.card-column-right-70{
+    float:right;
+    width:70%
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.panel{
+    background-color: white;
+    border: 4px solid black;
+    color:black
+}
+
+.card {
+    background-color: white;
+    border: 4px solid black;
+    /*height: 150px;*/
+    padding:25px 30px;
+    color:black
+
+}
+
+.menu {
+    list-style-type: none;
+}
+
+.menu li {
+    padding: 0 0 10px 0;
+}
+
+.menu li a{
+    color: grey;
+}
+
+.menu li a:hover{
+    color: black;
+}
+
+.image-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+del {
+    color: red;
+}
+
+.panel-padding {
+    background-color: #f3f3f3;
+    padding: 20px 30px
+}
+.box {
+    width: 30%;
+    height: 200px;
+    border: 5px dashed #f7a239;
+}
+
+.img {
+    width: 100%;
+    height: 100%;
+}
+.box1{
+    width: 1300px;
+    height: 200px;
+    padding: 10px;
+    border: 5px solid black;
+    margin: 0;
+}
+.btn-join1{
+    background: lightgrey;
+    font-size: 20px;
+    box-shadow:gray;
+
+}
